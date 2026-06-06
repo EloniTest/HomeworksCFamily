@@ -22,13 +22,14 @@ int main(void) {
     // 1 задание
     int arr[5] = {2,4,6,8,10};
     printf("Massive of numbers: \n");
-
+    for(int i =0; i < 5; i++)
+        printf("%d ",arr[i]);
     int result = summaryEven(arr,5);
-    printf("Summary of even elements: %d\n",result);
+    printf("\nSummary of even elements: %d\n",result);
 
  
     // 2 задание
-    for(int i =0; i <= 6; i++) {
+    for(int i =0; i < 6; i++) {
         printf("\nWrite a number: ");
         scanf("%d",&num);
         if (num == 6) {
@@ -42,12 +43,12 @@ int main(void) {
     
     
     // 3 задание
-    printf("Elements multiples of 4");
+    printf("Elements multiples of 4\n");
     for(int i = 0;i < 5; i++)
-        if(arr[i] %4 == 0) {
-            printf(arr[i]);
+        if(arr[i] % 4 == 0) {
+            printf("%d ", arr[i]);
             countMultipleFour++;
         }
-    printf("count: %d",count);
+    printf("\ncount: %d",countMultipleFour);
     return 0;
 }
