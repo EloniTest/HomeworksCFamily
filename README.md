@@ -25,6 +25,7 @@ If you don't have MinGW w64 (GCC - g++) installed
 * Open MSYS2 MSYS
 * Paste and enter the command: pacman -S mingw-w64-ucrt-x86_64-gcc
 * Go to the MSYS folder, and open path: ucrt64\bin
+* Copy this path
 * Search up system environmental variables or Изменение системных переменных среды
 * Click on environment variables (Переменные среды)
 * Then click on variable named "Path", click on edit
