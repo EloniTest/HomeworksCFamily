@@ -6,7 +6,7 @@
 // 3.	Выведите элементы, кратные 4, и их количество.
 
 
-int summaryEven (int array[], int size) {
+int summaryEven (const int array[], int size) {
     int summary = 0;
     for(int i = 0;i < size; i++)
         if(array[i] %2 == 0)
