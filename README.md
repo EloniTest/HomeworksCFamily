@@ -1,5 +1,5 @@
 ## Completed works for the C family
-These are completed assignments for the C language family for the 3rd year, use them if necessary.
+These are completed assignments for the C language family for the 3rd course of university, use them if necessary.
 
 ## What topics are covered?
 * (1)Linear, branching and cyclic algorithms in C
