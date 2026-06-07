@@ -11,9 +11,9 @@ int calculateZ(int a, int b, int c, int d, int e) {
 
 void analyzeNumber(int number) {
     if (number == 6) {
-        printf("Six!\n");
+        std::cout << "Six!" << std::endl;
     } else {
-        printf("Not six\n");
+        std::cout << "not six" << std::endl;
     }
 }
 
