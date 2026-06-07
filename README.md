@@ -18,8 +18,7 @@ topic - task in order
 
 * Download the zip archive
 * upload the contents to Visual Studio Code
-* view or compile
-* run the desired task.
+* view or run the desired task.
 
 ## License
 
