@@ -22,17 +22,19 @@ If you have MinGW w64 (GCC - g++) installed
 
 If you don't have MinGW w64 (GCC - g++) installed
 
-* 1) Open MSYS2 MSYS
-* 2) Paste and enter the command: pacman -S mingw-w64-ucrt-x86_64-gcc
-* 3) Go to the MSYS folder, and open path: ucrt64\bin
-* 4) Search up system environmental variables or Изменение системных переменных среды
-* 5) Click on environment variables (Переменные среды)
-* 6) Then click on variable named "Path", click on edit
-* 7) Click on "new" and paste the path you copy
+* Open MSYS2 MSYS
+* Paste and enter the command: pacman -S mingw-w64-ucrt-x86_64-gcc
+* Go to the MSYS folder, and open path: ucrt64\bin
+* Search up system environmental variables or Изменение системных переменных среды
+* Click on environment variables (Переменные среды)
+* Then click on variable named "Path", click on edit
+* Click on "new" and paste the path you copy
 
 Now lets check if we install all correctly
 open cmd and type "gcc --version"
+
 if you install all correctly you should see something similar to this:
+
 gcc (Rev11, Built by MSYS2 project) 15.2.0
 Copyright (C) 2025 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
