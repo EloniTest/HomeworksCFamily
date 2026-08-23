@@ -40,13 +40,16 @@ int main() {
     // задание 1
     std::cout << "Calculation result: " << solver.calculateZ() << std::endl;
 
+
     // задание 2
     int number;
     std::cout << "Enter a number to analyze: ";
     std::cin >> number;
+
     // вызов из класса (статический, сpp так принимает)
     Solution::analyzeNumber(number); 
 
+    
     // задание 3
     std::string name;
     std::cout << "Enter a name: ";

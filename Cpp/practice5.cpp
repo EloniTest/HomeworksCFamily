@@ -24,6 +24,7 @@ int main() {
 
     vector<int> dynamicArr = {2, 4, 6, 8, 10};
 
+
     // 1 задание
     for(auto num : dynamicArr) {
         if(num % 2 == 0)
@@ -31,11 +32,13 @@ int main() {
     }
     cout << "Sum of even elements: " << summary << endl;
 
+
     // 2 задание
     std::cout << "Enter a number to analyze: ";
     std::cin >> number;
     analyzeNumber(number);
 
+    
     // 3 задание
     for(auto num : dynamicArr) {
         if (num % 4 == 0) {

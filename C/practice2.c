@@ -19,6 +19,8 @@ int main(void) {
     int num;
     int count = 6;
     int countMultipleFour = 0;
+
+    
     // 1 задание
     int arr[5] = {2,4,6,8,10};
     printf("Massive of numbers: \n");

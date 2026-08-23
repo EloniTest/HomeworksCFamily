@@ -20,6 +20,7 @@ int main(void) {
     // 1 задание
     printf("Result of z = a * b + c / d - e : %.2f\n",summary(6,4,20,5,2));
 
+
     // 2 задание
     int number;
     printf("write a number: \n");
@@ -29,10 +30,11 @@ int main(void) {
     else 
         printf("not a multiple of three\n");
 
+        
     // 3 задание
     printf("|");
-    for(int i = 10; i >= 0; i--) {
+    for(int i = 10; i >= 1; i--) {
         printf(" %d |", i);
     }
-    return 1;
+    return 0;
 }

@@ -32,9 +32,11 @@ int main() {
 
     std::vector<int> nums = {6, 4, 20, 5, 2};
 
+    
     // 1
     int z = calculate(6, 4, 20, 5, 2);
     std::cout << "z = " << z << std::endl;
+
 
     // 2
     std::cout << "Vector analys:\n";
@@ -42,6 +44,7 @@ int main() {
         std::cout << nums[i] << " - ";
         checkSix(nums[i]);
     }
+
 
     // 3
     std::vector<int> filtered = filterBy4(nums);
