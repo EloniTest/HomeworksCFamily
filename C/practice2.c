@@ -1,7 +1,7 @@
 #include <stdio.h>
 // Вариант 3
 // Массив: {2, 4, 6, 8, 10}
-// 1.	Найдите сумму чётных элементов. (Мог бы уточнить что именно, по индексу или по числам)
+// 1.	Найдите сумму чётных элементов.
 // 2.	Пользователь вводит номер (1-5). Если элемент == 6 — "Шестёрка!", иначе — "Не шестёрка".
 // 3.	Выведите элементы, кратные 4, и их количество.
 
@@ -31,15 +31,15 @@ int main(void) {
 
  
     // 2 задание
-    for(int i =0; i < 6; i++) {
-        printf("\nWrite a number: ");
+    for(int i =0; i < 5; i++) {
+        printf("\nWrite a index: ");
         scanf("%d",&num);
-        if (num == 6) {
+        if (arr[num] == 6) {
             printf("Six!!\n");
             break;
         } else {
-            printf("Not six but seven\n");
-            printf("attempts: %d\n", count - i);
+            printf("Not six \n");
+            break;
         }
     }
     

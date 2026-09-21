@@ -12,7 +12,7 @@ Car myCar = new Car("Tesla Model 3", 2022);
 // второй экземпляр класса
 Car oldCar = new Car("Opel Astra", 2010);
 
-// информация о первой машине
+// инфа о первой машине
 Console.WriteLine($"Марка: {myCar.Model}, Год: {myCar.Year}");
 Console.WriteLine($"Это старый автомобиль? -> {myCar.IsOld()}"); 
 
@@ -24,7 +24,7 @@ Console.WriteLine($"Это старый автомобиль? -> {oldCar.IsOld()
 
 Console.WriteLine(new string('-', 30));
 
-// Проверка инкапсуляции: попробуем установить некорректный год
+// Проверка инкапсуляции: попытка установки некорректного года выпуска
 Console.WriteLine("Попытка установить некорректный год выпуска (1500 г.)...");
 myCar.Year = 1500; 
 Console.WriteLine($"Текущий год машины в программе: {myCar.Year}");
@@ -42,8 +42,8 @@ class Car
         get { return _year; }
         set
         {
-            // Небольшая проверка: машина не могла быть создана до изобретения авто (1886 г)
-            // И не может быть из будущего
+            // машина не могла быть создана до изобретения авто (1886 г)
+            // и не может быть из будущего
             if (value >= 1886 && value <= DateTime.Now.Year)
             {
                 _year = value;
@@ -55,7 +55,7 @@ class Car
         }
     }
 
-    // Конструктор класса
+    // конструктор
     public Car(string model, int year)
     {
         Model = model;
